@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Remove Duplicate Tabs",
+  "version": "1.0",
+  "description": "Deletes duplicate tabs within the browser window",
+  "permissions": ["tabs"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_title": "Remove Duplicate Tabs"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "manifest_version": 2
+}
